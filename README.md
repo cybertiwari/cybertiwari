@@ -1,3 +1,17 @@
+<h2> Hi, I'm Sunil Tiwari</h2>
+<img align='right' src="https://tenor.com/bN65M.gif" width="230">
+<p>
+    <em>
+        Software Enginner at <a href="https://sunarctechnologies.com">Sunarc Technologies</a>
+        <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+    </em>
+</p>
+
+[![Twitter: _suniltiwari](https://img.shields.io/twitter/follow/_suniltiwari?style=social)](https://twitter.com/_suniltiwari)
+[![GitHub cybertiwari](https://img.shields.io/github/followers/cybertiwari?label=follow&style=social)](https://github.com/cybertiwari)
+
+
+
 ```php
 <?php
 namespace Sunil\Tiwari;
@@ -21,7 +35,6 @@ class About extends Me
             Magento::class,
             ReactJs::class
             Aws::class,
-            MySql::class
         ];
     }
     public function getFutureGoal(): string
