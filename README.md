@@ -1,5 +1,5 @@
-<h2> Hi, I'm Sunil Tiwari</h2>
-<img align='right' src="https://media.tenor.com/7wA-N7uaDVcAAAAj/zan-rui-zhanrui.gif" width="230">
+<h2> Hi, I'm Sunil Tiwari <img src="https://media.tenor.com/7wA-N7uaDVcAAAAj/zan-rui-zhanrui.gif" width="50"></h2>
+
 <p>
     <em>
         Software Enginner at <a href="https://sunarctechnologies.com">Sunarc Technologies</a>
