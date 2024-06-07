@@ -7,7 +7,7 @@
     </em>
 </p>
 
-[![Twitter: _suniltiwari](https://img.shields.io/twitter/follow/_suniltiwari?style=social)](https://twitter.com/_suniltiwari)
+[![Twitter: cybertiwari](https://img.shields.io/twitter/follow/cybertiwari?style=social)](https://twitter.com/cybertiwari)
 [![GitHub cybertiwari](https://img.shields.io/github/followers/cybertiwari?label=follow&style=social)](https://github.com/cybertiwari)
 
 
@@ -29,12 +29,11 @@ class About extends Me
     public function getDailyKnowledge(): array
     {
         return [
-            Php::class,
-            Javascript::class,
+            React::class,
             Laravel::class,
             Magento::class,
-            ReactJs::class
-            Aws::class,
+            AWS::class,
+            Python::class
         ];
     }
     public function getFutureGoal(): string
