@@ -6,8 +6,44 @@ import IndianFlagSimulation from "../../Assets/Projects/indian-flag.png";
 import WeddingInvitation from "../../Assets/Projects/wedding-invitation.png";
 import TwinsTalk from "../../Assets/Projects/twinstalk.png";
 import syncRoom from "../../Assets/Projects/syncRoom.png";
+import TAS from "../../Assets/Projects/TAS.png";
+import KafeBiz from "../../Assets/Projects/KafeBiz.png";
+import QuoteNow from "../../Assets/Projects/QuoteNow.png";
+import QMTool from "../../Assets/Projects/QMTool.png";
 
 const projects = [
+	{
+		imgPath: TAS,
+		title: "Toll Analytics System (TAS)",
+		description:
+			"Toll Analytics System (TAS) automates toll data processing by extracting transaction records from toll plazas and bank APIs, transforming them via AWS Glue, and storing them in Redshift. It enables reporting, dispute resolution, and image management through a Laravel-based dashboard.",
+		ghLink: "https://github.com/cybertiwari/TAS",
+		demoLink: "https://tas.interiseworld.com/login",
+	},
+	{
+		imgPath: KafeBiz,
+		title: "KafeBiz",
+		description:
+			"KafeBiz is a Laravel-based coworking space marketplace connecting space owners and renters. Owners list spaces, renters search and book via AWS-hosted MySQL and S3 storage. Admins approve listings, manage payments, and earn commissions. Secure payments and seamless booking ensure efficiency.",
+		ghLink: "https://github.com/cybertiwari/kafebiz",
+		demoLink: "https://www.coworkhub.in/",
+	},
+	{
+		imgPath: QMTool,
+		title: "QM Tool",
+		description:
+			"QMTool is a Laravel + Vue.js web app for auditing call center recordings. It enables manual audits, rebuttals (up to three times), calibration, and reporting. Admins assign audits, auditors review calls, and reports track agent performance and compliance.",
+		ghLink: "https://github.com/cybertiwari/QMTool",
+		demoLink: "https://simpliq.qdegrees.com/",
+	},
+	{
+		imgPath: QuoteNow,
+		title: "QuoteNow",
+		description:
+			"QuoteNow is a property inspection and tradie job portal that streamlines inspections, service requests, and job management. It connects landlords, tenants, and tradies, enabling seamless quote generation, task assignments, and payments, ensuring efficient property maintenance and service handling. Built with Laravel and React.",
+		ghLink: "https://github.com/cybertiwari/QuoteNow",
+		demoLink: "https://www.quotenow.com.au/",
+	},
 	{
 		imgPath: TwinsTalk,
 		title: "Twins Talk AI Chatbot",
